@@ -18,12 +18,12 @@ int numberB = int.Parse(Console.ReadLine());
 if (numberA > numberB)
 {
     // YES!
-    Console.WriteLine($"{numberA} > {numberB}");
+    Console.WriteLine($"max = {numberA}");
 }
 else
 {
     // No!
-    Console.WriteLine($"{numberA} < {numberB}");
+    Console.WriteLine($"max = {numberB}");
 }
 
 // Вывод данных.
